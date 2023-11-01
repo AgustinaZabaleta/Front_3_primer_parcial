@@ -1,19 +1,12 @@
-
 import React from "react";
 
-
-const Card = () => {
+const Card = ({ciudad, pais}) => {
   return (
-    <React.Fragment>
-  <div>Hola, soy una tarjeta</div>;
-  
-      <button>Añadir</button>
-      </React.Fragment>
-      )
-};
-
+    <div className='card'>
+        <h3>Ciudad seleccionada: {ciudad}.</h3>
+        <h3>País seleccionado: {pais}.</h3>
+    </div>
+  )
+}
 
 export default Card;
-
-
-

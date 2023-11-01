@@ -1,22 +1,17 @@
-//import { useState } from 'react'
-//import reactLogo from './assets/react.svg'
-import './App.css'
-import Card from "./Components/Card";
-
+import './styles/App.css'
+import Formulario from "./Components/Formulario";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card />
+    <div className="App" id='root'>
+      <h1>Seleccione su locación deseada</h1>
+      <Formulario/>
+      <button onClick={() => window.location.reload()}>Limpiar</button>
     </div>
   );
 }
 
-
 export default App;
-
 
 
 

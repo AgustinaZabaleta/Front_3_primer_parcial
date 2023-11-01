@@ -1,0 +1,19 @@
+.formulario {
+    background-color: rgb(92, 220, 92);
+    color: rgba(25, 80, 1, 0.864);
+    width: 450px;
+    border: 1px solid rgba(145, 232, 105, 0.713);
+    border-radius: 15px;
+    margin: 40px;
+    padding: 35px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    align-content: center;
+
+}
